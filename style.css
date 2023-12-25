@@ -1,0 +1,33 @@
+ssbody {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #3498db; /* Changed border width and color */
+    border-radius: 15px; /* Increased border radius */
+
+}
+
+input,
+button {
+    padding: 12px; /* Increased padding */
+    margin-bottom: 15px; /* Increased margin-bottom */
+    width: 90%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2ecc71; /* Changed background color */
+    color: #fff; /* Changed text color */
+    border: 2px solid #27ae60; /* Changed border color */
+    border-radius: 8px; /* Increased border radius */
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #218c74; /* Darker color on hover */
+}
